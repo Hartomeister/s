@@ -5,7 +5,7 @@ reviewBtn = InlineKeyboardMarkup(resize_keyboard=True).add(InlineKeyboardButton(
 #слито в @smoke_software
 # Меню выбора оплаты
 qiwi_btn = KeyboardButton('🥝 QIWI')
-btc_btn = KeyboardButton('📀 BITCOIN')
+btc_btn = KeyboardButton('📀 BITCOIN (ВРЕМЕННО НЕДОСТУПНО)')
 card_btn = KeyboardButton('💳 Банковская карта')
 paymentsMenu = ReplyKeyboardMarkup(resize_keyboard=True).add(qiwi_btn).add(btc_btn).add(card_btn).add(backMenu_btn)
 
