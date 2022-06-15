@@ -1,1 +1,4 @@
 aiogram
+nekos.py
+logging
+asyncio
