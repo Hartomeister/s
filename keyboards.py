@@ -6,7 +6,7 @@ reviewBtn = InlineKeyboardMarkup(resize_keyboard=True).add(InlineKeyboardButton(
 # Меню выбора оплаты
 qiwi_btn = KeyboardButton('🥝 QIWI')
 btc_btn = KeyboardButton('📀 BITCOIN')
-card_btn = KeyboardButton('💳 Банковская карта ')
+card_btn = KeyboardButton('💳 Банковская карта')
 paymentsMenu = ReplyKeyboardMarkup(resize_keyboard=True).add(qiwi_btn).add(btc_btn).add(card_btn).add(backMenu_btn)
 
 # Меню проверки оплаты
