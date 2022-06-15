@@ -31,12 +31,12 @@ async def send_mes(message: types.Message):
 		await message.answer(mes.qiwi_message.format(config.QIWI_ACCOUNT, comment), reply_markup=kb.checkPayMenu)
 		return
 
-	if text == '💳 Банковская карта (ВРЕМЕННО НЕ ДОСТУПНО)':
+	if text == '💳 Банковская карта':
 		comment = str(user_id) + '_' + str(random.randint(11111, 99999))
 		await message.answer(mes.card_message.format(config.CARD_NUMBER, comment), reply_markup=kb.checkPayMenu)
 		return
 
-	if text == '📀 BITCOIN':
+	if text == '📀 BITCOIN (ВРЕМЕННО НЕДОСТУПНО)':
 		await message.answer(mes.btc_message.format(config.BTC_ADDRESS), reply_markup=kb.checkPayMenu)
 		return
 
