@@ -2,3 +2,4 @@ aiogram
 nekos.py
 logging
 asyncio
+pyTelegramBotAPI
